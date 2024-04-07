@@ -1,0 +1,644 @@
+body {
+    margin: 0px;
+    font-family: "Alegreya Sans";
+
+}
+
+a,
+span {
+    display: inline-block;
+}
+.container {
+    margin: 0 auto;
+    width: 85%;
+}
+/* start family Bakery */
+.main-div {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.Navbar {
+    display: inline;
+    height: 48px;
+    position: fixed;
+    height: 15%;
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.left-nav img {
+    position: fixed;
+    left: 7%;
+    top: 6%;
+    height: 50px;
+}
+
+.right-nav {
+    float: right;
+    margin-top: 4%;
+    /* position: fixed; */
+
+}
+
+.right-nav ul {
+    position: relative;
+    display: inline;
+    text-align: right;
+}
+
+.right-nav li {
+    padding-top: 10px;
+    display: inline;
+    margin: 5px;
+    font-size: 25px;
+
+
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.noHover{
+    pointer-events: none;
+}
+.right-nav ul li a:hover{
+    color: #e0c690;
+}
+.menu-down {
+    position: relative;
+    display: inline-block;
+}
+.menu-down-content {
+    display: none;
+    position: absolute;
+    background-color: #423C36;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+.menu-down:hover .menu-down-content {
+    display: block;
+}
+.menu-down-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.menu-down-content a:hover{
+    color: #e0c690;
+
+}
+.clearfix {
+    clear: both;
+}
+/* ................first text landpage......................... */
+.first-text{
+    position: relative;
+    color: white;
+    width: 60%;
+    left: 20%;
+    /* top: 55px; */
+    margin-top: 10%;
+}
+.top-text{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.family-text {
+    font-size: 75px;
+    display: inline;
+}
+.last-text {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.buttons {
+    line-height: 1.86em;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.left-button {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: none;
+    line-height: 1.3rem;
+    letter-spacing: 0px;
+    margin-bottom: 12px;
+    background-color: #8e7754;
+    margin-bottom: 12px;
+    outline: none;
+    margin-right: 2px;
+}
+
+.right-button {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: none;
+    line-height: 1.3rem;
+    letter-spacing: 0px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 12px;
+    outline: none;
+    margin-left: 2px;
+}
+.left-button:hover{
+    background: #ffffff;
+    color: black;
+}
+.right-button:hover{
+    background: #ffffff;
+    color: black;
+}
+/* End family Bakery */
+/* Start sec Who are we */
+.who-are{
+    /* background-color: #ff0000; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.image-full{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.image-full img{
+    width: 100%;
+
+}
+
+.image-text{
+    /* width:49%;
+    vertical-align: middle;
+    display: inline-block; */
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top:5%;
+}
+.image-text h3{
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.image-text p{
+    font-weight: 400;
+    color: #686868;
+    font-size: 15px;
+}
+
+.image-text ul {
+    list-style: none;
+
+}
+.icon-list-text{
+    font-size:20px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.image-text .icon-list {
+    font-weight: 400;
+    color: #686868;
+    font-size: 40px;    
+    padding-left: 0;
+    text-decoration: none;
+    vertical-align: middle;
+    
+}
+.fa-envira, .fa-users, .fa-heart, .fa-check {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    background: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #8e7754;
+    margin-top: 10px;
+
+}
+.fa-envira:before, .fa-users:before, .fa-heart:before, .fa-check:before {
+    position: relative;
+    top: 12px;
+}
+
+.clearfix{
+    clear: both;
+}
+/* end sec whp are we */
+/*!----------------------------------------- */
+
+/*srart Sec location*/
+.location{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.location h2{
+    margin-top: 0px;
+    margin-top: 0;
+    font-weight: 400;
+    color: #303030;
+    font-size: 55px;
+    margin-bottom: 0;
+    position: relative;
+    margin-left: 20px;
+}
+.location-text{
+    /* background-color: lawngreen; */
+    width:49%;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.location-image{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.location-image img{
+    width: 100%;
+}
+.location-text p{
+    font-weight: 400;
+    text-align: center;
+    box-sizing: inherit;
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+    width:90%;
+}
+/*End Sec location*/
+/*!----------------------------------------- */
+
+/* Start Our Baking */
+.baking{
+    /* background-color: red; */
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    
+}
+/* 3 divs for img */
+.baking-iteam{
+    /* background-color: limegreen; */
+    float: left;
+    width:31%;
+    margin: 1%;
+}
+.baking p{
+    color: #888;
+    font-size:20px;
+}
+.baking-iteam img{
+width: 100%;
+}
+.baking h2{
+    font-size: 40px;
+    font-weight: 400;
+    
+
+}
+.baking h3{
+    font-size: 15px;
+
+}
+.clearfix{
+    clear: both;
+}
+
+ /* End Our Baking */
+/*!----------------------------------------- */
+/*&---------------------------------------------- */
+/* start Contact Information */
+.Contact-Information{
+    /* background-color: #0e76a8; */
+    background-color: #eee;
+    padding: 2%;
+
+}
+.allcontent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-information h4,p{
+    margin: 0px;
+}
+.text-information{
+    width:49%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.text-information h4{
+    font-size: 29px;
+    margin-bottom: 10%;
+}
+.text-information h3{
+    color: #686868;
+}
+.text-information ul{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.fa-map-o, .fa-phone, .fa-headphones, .fa-envelope-o {
+    margin-right: 10px;
+    text-align: center;
+    background-color: #8e7754 !important;
+    color: #fff;
+    background: #aaa;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.fa-map-o::before, .fa-phone:before, .fa-headphones:before, .fa-envelope-o::before {
+    position: relative;
+    top: 9px;
+} 
+.map-location{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End Contact Information  */
+
+/*&---------------------------------------------- */
+
+/* First footer */
+  /* background-color: #403d38; */
+.all-main{
+    text-align: center;
+    line-height: 1.86em;
+    font-weight: 400;
+    padding-top: 60px;
+    color: #969696;
+    font-size: 16px;
+    opacity: 1;
+    background-color: #403d38;
+    
+    
+}
+.all-main::before{
+    float: left;
+}
+.aboutus{
+    /* background-color: red; */
+    /* display: inline-block; */
+    text-align: left;
+    vertical-align: top;
+    color: #969696;
+    margin: 10px;
+    width: 25%;
+    float: left;
+}
+.aboutus h3{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Why-we-are-special{
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    color: #969696;
+    margin: 10px;
+    
+}
+.Why-we-are-special h3{
+color: white;
+font-weight: 400;
+font-size: 18px;
+margin-left: 25px;
+
+}
+.why-are-text li{
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.why-are-text li:before{
+    font-family: FontAwesome;
+    padding-right: 8px;
+    color: #969696;
+    transition: padding 0.3s;
+    content: "\f105";
+}
+.why-are-text li:nth-last-child(1){
+    border-bottom: none;
+}
+.Why-we-are-special ul {
+margin: 0px;
+}
+.Opening-Hours{
+    /* background-color: #4267b2; */
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    color: #969696;
+    margin: 10px;
+    
+}
+.Opening-Hours li{
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.Opening-Hours li::before{
+    font-family: FontAwesome;
+    padding-right: 8px;
+    color: #969696;
+    content: "\f105";
+}
+.Opening-Hours li:nth-last-child(1){
+    border-bottom: none;
+}
+.Opening-Hours h3{
+    color: white;
+font-weight: 400;
+font-size: 18px;
+margin-left: 25px;
+}
+.Contact-Details{
+    /* background-color: rgb(77, 255, 0); */
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    color: #969696;
+    margin: 10px;
+}
+.Contact-Details  li {
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0;
+}
+.Contact{
+    font-weight: 400;
+    color: #969696;
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+    display: table;
+}
+.Contact-Details h3{
+color: white;
+font-weight: 400;
+font-size: 18px;
+}
+.Contact a{
+    text-decoration: none;
+    color: #969696;
+    text-align: left;
+    display: inline-block;
+    padding-left: 2px;
+}
+.Contact1{
+    padding: 11px;
+    padding-left: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom-width: 1px;
+}
+.fa-map-marker:before {
+    margin-right: 8px;
+    margin-top: 6px;
+    display: flex;
+}
+
+.fa-phone:before {
+    margin-right: 2px;
+    text-align: center;
+}
+
+.fa-envelope:before {
+    margin-right: 8px;
+    text-align: center;
+}
+
+.fa-globe:before {
+    margin-right: 8px;
+    text-align: center;
+}
+.Contact1:nth-last-child(1){
+    border-bottom: none;
+}
+.hover:hover{
+color: white;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+.clearfix{
+    clear: both;
+}
+
+/* End first footer */
+
+/*start footer social*/
+.social-icons {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.footer-img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.copyright {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #777;
+    font-size: 15px;
+}
+
+.iconns a {
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    width: 40px;
+    font-size:20px;
+    height: 40px;
+    color: #8c8a86;
+    background-color: #484540;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.fa-facebook-f:before, .fa-facebook:before, .fa-google-plus:before, .fa-linkedin:before, .fa-twitter:before {
+    line-height: 40px;
+}
+
+.icon-facebook:hover {
+    background-color: #4267b2;
+    color: white;
+}
+
+.icon-google-plus:hover {
+    background-color: #db4a39;
+    color: white;
+}
+
+.icon-linkedin:hover {
+    background-color: #0e76a8;
+    color: white;
+}
+
+.icon-twitter:hover {
+    background-color: #00acee;
+    color: white;
+}
+/*  End footer social*/
